@@ -1,0 +1,78 @@
+html{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-content{
+    top: 5.3125rem;
+    position: relative;
+}
+
+header {
+    position:fixed;
+    background-color: red;
+    width: 100%;
+    z-index: 100;
+}
+
+header .content{
+    display:flex;
+    align-items: center;
+    padding: 3.5rem
+
+}
+
+header nav ul{
+    display: flex;
+
+}
+
+nav li{
+    padding-left: 3.5rem;
+}
+
+header .logo{
+    
+    flex: 1;
+}
+
+nav a {
+    vertical-align: bottom;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #4a4a4a;
+  }
+
+header .icon {
+    width: 1rem;
+    padding-left: .75rem;
+  }
+
+nav li:last-child {
+    display: none;
+}
+
+header .mobile {
+     display: none;
+}
+
+#sign-up-section {
+    background-image: url('../images/banner-landingpage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 43.5rem;
+    display: flex;
+    align-items: flex-start;
+   
+    
+}
+
+#sign-up-cta {
+    position: relative;
+    top: 10.625rem ;
+    left: 6.25rem;
+    padding: 0 5rem 2.5rem 5rem;
+    border: solid 1px #979797;
+    border-radius: 4px;
+    background-color: #9dc20b;
+  }
