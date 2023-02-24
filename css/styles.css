@@ -15,7 +15,7 @@ header {
     
 }
 
-.content {
+header .content {
     display: flex;
     align-items: center;
  
@@ -82,7 +82,7 @@ header {
  }
 
  #sign-up-cta .content {
-    display: block;
+
     width: 25.625rem;
     margin-top: 2rem;
     font-family: "Roboto", sans-serif;
@@ -143,14 +143,15 @@ header {
 
  .feature {
     flex: 1;
-    padding: 2rem;
+    padding: 2rem ;
     background-color: white;
-    margin: 0 2.2rem;
+    margin: 0 1.25rem;
     
  }
 
  .feature .image-container {
-    width: 80%;
+    width: 90%;
+    height: 65%;
     margin: 0 auto;
  }
 
@@ -161,7 +162,7 @@ header {
 
  .feature .content {
     margin-top: 3.2rem;
-    display: block;
+   
  }
 
  .feature h2 {
@@ -172,4 +173,59 @@ header {
     color: #4a4a4a;
  }
 
+#filters-section {
+    padding: 4rem 0;
+    background-color: #4a4a4a;
+}
 
+#filters-section .content h2 {
+   
+    color: white;
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+#filters-section .content h3 {
+    
+    color: white;
+}
+
+.images-container {
+    display: flex;
+}
+
+#filters-section .content {
+    padding-bottom: 4rem;
+}
+
+#quotes-section {
+    background-color: #f3f3f3;
+}
+
+#quotes-section .content {
+    padding: 5rem 0;
+}
+
+#quotes-section .quote {
+    font-family: "Palatino", serif;
+    font-size: 1.875rem;
+    padding-right: 1.8rem ;
+    line-height: 1.1;
+    font-style: italic;
+    color: #4a4a4a;
+}
+
+footer {
+    background-color: #979797;
+   
+
+}
+
+footer .content {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+}
+footer .copyright {
+    flex: 1;
+}
